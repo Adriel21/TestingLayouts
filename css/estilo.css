@@ -1,0 +1,69 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#index{
+	width: 80%;
+	margin: 0 auto;
+	min-width: 720px;
+}
+
+.cabeçalho{
+	background: #225992 url(../imagens/cabecalho2.jpg) no-repeat center;
+	height:200px;
+	text-align: center;
+	line-height: 200px;
+}
+
+.conteudo{
+	float: right;
+	width: 75%;
+}
+
+.menu-lateral{
+	background: #DCDCDC;
+	float: left;
+	width: 23%;
+}
+
+.rodape{
+	clear: both;
+	background: #C0C0C0;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.content{
+	width: 63%;
+	float: left;
+}
+
+.recent-posts h2,
+.recent-posts p{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.recent-posts{
+	width: 32%;
+	float: right;
+	background: #DCDCDC;
+}
+
+a{
+	display: block;
+	text-decoration: none;
+	margin: 5px;
+}
+
+.teste{
+	padding: 15px;
+	list-style: none;
+}
+
+img.img-noticia{
+	width: 94%;
+	padding: 2%;
+}
