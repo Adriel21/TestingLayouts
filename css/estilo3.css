@@ -3,6 +3,7 @@ body {
 }
 
 fieldset{
+	margin: 1em 0;
 	padding: 1em;
 	border: 1px solid #ccc;
 	background: #f8f8f8;
@@ -10,4 +11,26 @@ fieldset{
 
 legend {
 	font-weight: bold;
+}
+
+input.radio, input.checkbox, input.submit {
+	width: auto;
+}
+
+input.text {
+	width: 20em;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+textarea {
+	width: 20em;
+	height: 10em;
+}
+
+.radio {
+	margin-right: 1em;
 }
